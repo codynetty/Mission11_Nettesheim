@@ -1,0 +1,18 @@
+﻿
+
+@model Book
+
+<div class="card m-1 p-1">
+    <h4>
+        @Model.Title
+        <span class="badge rounded-pill bg-primary text-white float-end">PRICE $:@Model.Price</span>
+    </h4>
+    <ul>
+        <li>Author: @Model.Author</li>
+        <li> Publisher: @Model.Publisher</li>
+        <li>ISBN: @Model.Isbn</li>
+        <li>Category/Classification: @Model.Category / @Model.Classification</li>
+        <li>Number of Pages: @Model.PageCount</li>
+
+    </ul>
+</div>
